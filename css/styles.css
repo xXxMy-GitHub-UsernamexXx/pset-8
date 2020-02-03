@@ -4,8 +4,8 @@
  */
 
 body {
-  text-align: center;
-  font-family: "Roboto", monospace;
+        text-align: center;
+        font-family: "Roboto", monospace;
 }
 
 /*
@@ -14,10 +14,10 @@ body {
  */
 
 h1 {
-  margin: 0 auto;
-  font-family: "Major Mono Display", monospace;
-  font-size: 48px;
-  margin: 2%;
+        margin: 0 auto;
+        font-family: "Major Mono Display", monospace;
+        font-size: 48px;
+        margin: 2%;
 }
 
 /*
@@ -26,9 +26,9 @@ h1 {
  */
 
 h2 {
-  font-size: 36px;
-  font-weight: lighter;
-  margin: 2%;
+        font-size: 36px;
+        font-weight: lighter;
+        margin: 2%;
 }
 
 /*
@@ -37,9 +37,9 @@ h2 {
  */
 
 .container {
-  display: flex;                /* set our display property to use flex-box */
-  justify-content: center;      /* center container horizontally */
-  align-items: center;          /* center content vertically */
+        display: flex;                /* set our display property to use flex-box */
+        justify-content: center;      /* center container horizontally */
+        align-items: center;          /* center content vertically */
 }
 
 /*
@@ -48,9 +48,9 @@ h2 {
  */
 
 .column {
-  height: 100%;
-  width: 100%;
-  flex-direction: column;       /* align children in columns instead of rows */
+        height: 100%;
+        width: 100%;
+        flex-direction: column;       /* align children in columns instead of rows */
 }
 
 /*
@@ -59,9 +59,9 @@ h2 {
  */
 
 .wrap {
-  flex-wrap: wrap;              /* tells container to drop down once it reaches max-width */
-  height: 456px;
-  width: 456px;
+        flex-wrap: wrap;              /* tells container to drop down once it reaches max-width */
+        height: 456px;
+        width: 456px;
 }
 
 /*
@@ -91,7 +91,7 @@ h2 {
  */
 
 #reset-button {
-        background-color: white;
+        background-color: #1697a7;
         border: 1px solid black;
         color: black;
         font-size: 21px;
@@ -108,6 +108,6 @@ h2 {
 
 #reset-button:hover {
         background-color: black;
-        color: white;
+        color: #1697a7;
         cursor: pointer;
 }
