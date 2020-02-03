@@ -82,7 +82,7 @@ h2 {
  */
 
 .square:hover {
-        background-color: lightgray;
+        background-color: #1cbfd4;
         cursor: pointer;
 }
 
