@@ -6,7 +6,7 @@
 body {
         text-align: center;
         font-family: "Roboto", monospace;
-        background:
+        background: #9ce9f0;
 }
 
 /*
@@ -30,6 +30,7 @@ h2 {
         font-size: 36px;
         margin: 2%;
         color: #1cbfd4;
+        font-weight: lighter;
 }
 
 /*
@@ -92,7 +93,7 @@ h2 {
  */
 
 #reset-button {
-        background-color: #1697a7;
+        background-color: #9ce9f0;
         border: 1px solid black;
         color: black;
         font-size: 21px;
@@ -108,7 +109,7 @@ h2 {
  */
 
 #reset-button:hover {
-        background-color: black;
-        color: #1697a7;
+        background-color: #1697a7;
+        color: black;
         cursor: pointer;
 }
