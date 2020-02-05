@@ -19,6 +19,7 @@ h1 {
         font-family: "Major Mono Display", monospace;
         font-size: 48px;
         margin: 2%;
+        color: #1cb876;
 }
 
 /*
@@ -29,7 +30,7 @@ h1 {
 h2 {
         font-size: 36px;
         margin: 2%;
-        color: #1cbfd4;
+        color: #21d589;
         font-weight: lighter;
 }
 
@@ -71,7 +72,7 @@ h2 {
  */
 
  .square {
-         border: 1px solid rgba(0, 0, 0, 0.75);
+         border: 1px solid #21d589;
          font-size: 96px;
          height: 150px;
          line-height: 150px;
@@ -94,8 +95,8 @@ h2 {
 
 #reset-button {
         background-color: #9ce9f0;
-        border: 1px solid black;
-        color: black;
+        border: 1px solid #1cb876;
+        color: #1cb876;
         font-size: 21px;
         line-height: 55px;
         margin: 1%;
@@ -110,6 +111,6 @@ h2 {
 
 #reset-button:hover {
         background-color: #1697a7;
-        color: black;
+        color: #1cbfd4;
         cursor: pointer;
 }
