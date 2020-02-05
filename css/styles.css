@@ -34,6 +34,13 @@ h2 {
         font-weight: lighter;
 }
 
+h4 {
+        font-size: 18px;
+        margin: 2%;
+        color: #21d589;
+        font-weight: 50;
+}
+
 /*
  * The container is a flex-box, which is a powerful layout tool. It grows
  * dynamically, and allows us to position our elements with precision.
