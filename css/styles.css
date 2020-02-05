@@ -6,6 +6,7 @@
 body {
         text-align: center;
         font-family: "Roboto", monospace;
+        background:
 }
 
 /*
@@ -27,8 +28,8 @@ h1 {
 
 h2 {
         font-size: 36px;
-        font-weight: lighter;
         margin: 2%;
+        color: #1cbfd4;
 }
 
 /*
