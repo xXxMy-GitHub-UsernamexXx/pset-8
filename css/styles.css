@@ -78,6 +78,7 @@ h2 {
          line-height: 150px;
          user-select: none;
          width: 150px;
+         color: #1cb876;
  }
 
 /*
@@ -87,6 +88,7 @@ h2 {
 .square:hover {
         background-color: #1cbfd4;
         cursor: pointer;
+        color: #21d589;
 }
 
 /*
