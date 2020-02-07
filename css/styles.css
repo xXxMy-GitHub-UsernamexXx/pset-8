@@ -101,7 +101,7 @@ h4 {
  * The reset button sits just below the board.
  */
 
-#reset-button {
+.button {
         background-color: #9ce9f0;
         border: 1px solid #1cb876;
         color: #1cb876;
@@ -117,7 +117,7 @@ h4 {
  * switches (background and foreground).
  */
 
-#reset-button:hover {
+.button:hover {
         background-color: #1697a7;
         color: #1cbfd4;
         cursor: pointer;
