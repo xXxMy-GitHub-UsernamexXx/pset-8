@@ -88,5 +88,5 @@ function getWinner() {
 }
 
 function changeStart() {
-
+        turn = turn === "X" ? "O" : "X";
 }
