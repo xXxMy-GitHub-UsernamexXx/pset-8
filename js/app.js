@@ -23,7 +23,8 @@ const score = document.querySelector("h4");
 ///////////////////// EVENT LISTENERS ///////////////////////////////
 window.onload = init;
 document.getElementById("board").onclick = takeTurn;
-document.getElementById("reset-button").onclick = init;
+document.getElementById("reset").onclick = init;
+document.getElementById("start").onclick = changeStart;
 ///////////////////// FUNCTIONS /////////////////////////////////////
 function init() {
         board = [
