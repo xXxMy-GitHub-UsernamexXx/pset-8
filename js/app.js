@@ -16,6 +16,7 @@ let win;
 let xWins = 0;
 let yWins = 0;
 let ties = 0;
+let storeTurn;
 ///////////////////// CACHED ELEMENT REFERENCES /////////////////////
 const squares = Array.from(document.querySelectorAll("#board div"));
 const message = document.querySelector("h2");
@@ -88,7 +89,9 @@ function getWinner() {
 }
 
 function changeStart() {
-        turn = turn === "X" ? "O" : "X";
-        
+        storeTurn = turn;
+        init();
+        turn = storeTurn === "X" ? "O" : "X";
+
         render();
 }
